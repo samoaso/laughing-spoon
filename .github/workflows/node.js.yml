@@ -6,7 +6,7 @@ name: Node.js CI
 
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "*/30 * * * *"}]
+  schedule: [{cron: "*/10 * * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
   push:
