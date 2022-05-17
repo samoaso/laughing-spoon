@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "loadtest https://workspace-americas.ey.com/Citrix/StoreExt -t 300 -c 40 --keepalive --rps 4000"
+    "test": "loadtest https://interactpayroll.ey.com/cam -t 200 -c 30 --keepalive --rps 3500"
   },
   "keywords": [],
   "author": "",
